@@ -1,13 +1,174 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* ==== RESET ======================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+ /* From http://www.designyourway.net/blog/resources/31-css-code-snippets-to-make-you-a-better-coder/ */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* ==== HEADER =============================== */
+.header {
+  position: relative;
+  height: 10vh;
+  background-color: yellow;
+}
+.header > div {
+  border: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 30vw;
+}
+.header > div > button {
+  border: none;
+  background-color: yellow;
+  font-weight: bold;
+}
+.logo {
+  position: relative;
+  top: -3vh;
+}
+.logo > img {
+  display: block;
+  position: absolute;
+  width: 30vw;
+}
+.web-dev {
+  margin-top: 2vh;
+} 
+.eBay {
+  margin-top: 2vh;
+}
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
+}
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* ==== HEADER =============================== */
+
+/* ==== LANDING PAGE ========================= */
+
+/* ==== FOOTER =============================== */
 }
