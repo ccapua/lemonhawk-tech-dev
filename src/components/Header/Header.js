@@ -7,6 +7,7 @@ const Header = (props) => {
       <div className="header">
         <div className="logo" onClick={() => props.changePage("landing")}>
           <img alt="lemonhawk" src="https://i.imgur.com/P3e07Yt.png"/>
+          <div>Lemonhawk</div>
         </div>
         <div className="web-dev">
           <button onClick={() => props.changePage("web-dev")}>

@@ -1,11 +1,9 @@
-import React, { useState, useContext } from 'react';
+import React, { useState,  } from 'react';
 import Header from './components/Header/Header.js';
 import LandingPage from './components/LandingPage/LandingPage.js';
 import Footer from './components/Footer/Footer.js';
 import WebDevPage from './components/WebDevPage/WebDevPage.js';
 import eBayPage from './components/eBayPage/eBayPage.js';
-import { AppContext } from './contexts/AppContext.js';
-
 function App() {
   const [page, setPage] = useState('landing');
 

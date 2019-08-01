@@ -62,7 +62,7 @@ and (max-device-width : 480px) {
 .header {
   position: relative;
   height: 10vh;
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.884);
 }
 .header > div {
   border: none;
@@ -71,11 +71,13 @@ and (max-device-width : 480px) {
   width: 30vw;
 }
 .header > div > button {
+  cursor: pointer;
   border: none;
   background-color: yellow;
   font-weight: bold;
 }
 .logo {
+  cursor: pointer;
   position: relative;
   top: -3vh;
 }
@@ -84,14 +86,54 @@ and (max-device-width : 480px) {
   position: absolute;
   width: 30vw;
 }
+.logo > div {
+  position: relative;
+  top: 5vh;
+  left: 4vw;
+}
 .web-dev {
-  margin-top: 2vh;
+  margin-top: 3vh;
 } 
 .eBay {
-  margin-top: 2vh;
+  margin-top: 3vh;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1vh;
+}
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1vh;
+}
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1vh;
 }
 /* ==== LANDING PAGE ========================= */
-
+.landing-page {
+  height: 100vh;
+}
+.landing-page > ul {
+  margin: auto;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.landing-page > ul > li > div {
+  height: 15vh;
+}
+.landing-boxes {
+  color: white;
+  background-color: rgb(10, 129, 207);
+  width: 35vw;
+}
+.landing-boxes > span {
+  margin-top: 2vh;
+}
+.landing-explanation {
+  width: 65vw;
+}
 /* ==== FOOTER =============================== */
 }
 /* Smartphones (landscape) ----------- */
